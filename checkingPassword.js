@@ -1,8 +1,11 @@
-const arrayWithInfo = [
-  "a 1-5: abcdj",
-  "z 2-4: asfalseiruqwo",
-  "b 3-6: bhhkkbbjjjb",
-];
+const text = `
+a 1-5: abcdj
+z 2-4: asfalseiruqwo
+b 3-6: bhhkkbbjjjb
+2 3-5: 2235232213
+`;
+
+const arrayWithInfo = text.split("\n").slice(1, -1);
 
 let statusPasswords = [];
 
